@@ -1,6 +1,9 @@
 site_name: Comsign PWA Documentation
 theme:
-  name: material
+  name: readthedocs
+
+extra_css:
+  - custom/styles.css
 
 docs_dir: docs
 
