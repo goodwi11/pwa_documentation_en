@@ -63,7 +63,7 @@ Go to your domain registrar's control panel and replace the current NS servers w
 **Step 3: Verify Binding**
 
 !!! important
- DNS changes can take from a few minutes to 48 hours. This depends on your registrar and current record TTL.
+    DNS changes can take from a few minutes to 48 hours. This depends on your registrar and current record TTL.
 
 After DNS records update, click **"Verify Domain Binding"**. If everything is configured correctly, you can proceed to the next step.
 
