@@ -2,7 +2,7 @@
 
 The constructor is the main tool for creating and editing PWA applications. It consists of five tabs that are completed sequentially.
 
-## Basic Tab
+## Basic Tab {#main}
 
 This tab sets the basic app parameters.
 
@@ -38,7 +38,7 @@ https://play.google.com/store/apps/details?id=com.example.app
 
 After filling all fields, click **"Next"** to proceed to domain setup.
 
-## Domain Tab
+## Domain Tab {#domain}
 
 A domain is required for PWA operation. Binding is done through Cloudflare NS servers.
 
@@ -72,7 +72,7 @@ After DNS records update, click **"Verify Domain Binding"**. If everything is co
 - NS servers haven't propagated yet — wait and retry verification
 - Changes weren't saved at registrar — check DNS settings again
 
-## Content Tab
+## Content Tab {#content}
 
 This tab configures all content that users will see in your PWA. A real-time app preview is displayed on the right.
 
@@ -148,7 +148,7 @@ Specify contact details for the "About Developer" section:
 
 After filling all fields, click **"Save"** to save the content.
 
-## Push Tab
+## Push Tab {#push}
 
 On this tab, you select which push notifications will be linked to the PWA being created.
 
@@ -170,11 +170,11 @@ On this tab, you select which push notifications will be linked to the PWA being
 
 The preview on the right shows how the push will appear on the user's device.
 
-## Cloaking Tab
+## Cloaking Tab {#cloaking}
 
 Cloaking is a traffic filtering system that allows showing different content to different users. Ad network moderators see a safe page (white page), while the target audience sees your PWA.
 
-### Cloaking Settings
+### Cloaking Settings 
 
 **Ad Network**
 Select the traffic source to optimize filtering for:
