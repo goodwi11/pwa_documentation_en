@@ -2,12 +2,28 @@ site_name: Comsign PWA Documentation
 theme:
   name: readthedocs
 
-extra_css:
-  - custom/styles.css
+extra:
+  favicon: assets/pwa_icon.png
 
 docs_dir: docs
 
 nav:
-  - Home: index.md
+  - Overview: overview.md
+  - Quick Start: start.md
+  - Clients Area: clients_area.md
+  - Builder: sections/builder.md
+  - Push Notifications: sections/push.md
+  - Statistics: sections/statistics.md
 
 site_url: !ENV READTHEDOCS_CANONICAL_URL
+
+extra_css:
+  - custom/styles.css
+
+markdown_extensions:
+  - attr_list
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
