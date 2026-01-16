@@ -153,7 +153,7 @@ After filling all fields, click **"Save"** to save the content.
 On this tab, you select which push notifications will be linked to the PWA being created.
 
 !!! important
- Before using this tab, you need to create push notifications in the **"Push"** section of the main menu. The list will be empty when creating your first PWA.
+    Before using this tab, you need to create push notifications in the **"Push"** section of the main menu. The list will be empty when creating your first PWA.
 
 **How It Works:**
 
@@ -202,7 +202,7 @@ Specify your traffic geography:
 Available geos: Russia, Ukraine, Belarus, Kazakhstan, Germany, USA, and others.
 
 !!! tip
- An empty field means "allow all".
+    An empty field means "allow all".
 
 **Operating Systems**
 
