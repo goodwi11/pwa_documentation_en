@@ -10,7 +10,7 @@ docs_dir: docs
 nav:
   - Overview: overview.md
   - Quick Start: start.md
-  - Clients Area: clients_area.md
+  - Main: main.md
   - Builder: sections/builder.md
   - Push Notifications: sections/push.md
   - Statistics: sections/statistics.md
