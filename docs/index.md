@@ -22,6 +22,8 @@
          - [Developer Contacts](builder/#contacts)
      - [Push](builder/#push)
      - [Cloaking](builder/#cloaking)
+         - [Filtering Parameters Settings](builder/#settings)
+         - [Safe Page Settings](builder/#safe_page)
  - [Push Notifications](push/)
      - [Section Overview](push/#push_overview)
      - [Creating a Push](push/#push_creation)
