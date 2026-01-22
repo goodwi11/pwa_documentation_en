@@ -4,6 +4,9 @@ theme:
   logo: assets/logo2.png
   favicon: assets/favicon.png
 
+extra:
+  homepage: https://comsign.io
+
 # extra:
 #   favicon: assets/pwa_icon.png
 
