@@ -76,7 +76,7 @@ At this stage, all content that users will see in your PWA is configured. A real
 !!! note "Note"
     Instead of manual data entry, you can generate content using the corresponding button (✨) next to the input field.
 
-### App Header
+### App Header {#header}
 
 | Field | Description |
 |-------|-------------|
@@ -90,7 +90,7 @@ At this stage, all content that users will see in your PWA is configured. A real
 | Downloads | Specify number of installs |
 | Reviews | Specify number of reviews |
 
-### Screenshots
+### Screenshots {#screen}
 
 Upload app screenshots — they'll be displayed in a carousel on the installation page.
 
@@ -100,12 +100,12 @@ Upload app screenshots — they'll be displayed in a carousel on the installatio
 
 Click **"Add Screenshots +"** to upload additional images.
 
-### Video
+### Video {#video}
 
 Optionally, you can add a YouTube video link with an app overview or trailer. Paste the full link in format: <https://www.youtube.com/watch?v=XXXXXX>
 
 
-### Description and Tags
+### Description and Tags {#descript_tags}
 
 **Step 1. Description**<br>
 Specify the text description of the app. Supports multiple paragraphs. Describe the functionality and benefits — this affects install conversion and overall PWA perception.
@@ -114,12 +114,12 @@ Specify the text description of the app. Supports multiple paragraphs. Describe 
 Specify keywords separated by commas, e.g.: *game*, *football*, *basketball*.<br>
 Tags are displayed as labels under the description.
 
-### Ratings Distribution
+### Ratings Distribution {#rating}
 
 Configure the star rating distribution. Use sliders to specify the number of reviews for each rating.<br>
 The **"Link ratings to review count"** option automatically recalculates the distribution so the sum matches the specified total number of reviews.
 
-### Reviews and Responses
+### Reviews and Responses {#reviews}
 
 Create realistic reviews to build trust:
 
@@ -133,7 +133,7 @@ Create realistic reviews to build trust:
 
 Click **"Add Review +"** to add multiple reviews.
 
-### Developer Contacts
+### Developer Contacts {#contacts}
 
 Specify contact details for the "About Developer" section:<br>
 - **Address** — legal or physical address<br>
@@ -169,7 +169,7 @@ At this stage, you select which push notifications will be linked to the PWA bei
 
 Cloaking is a traffic filtering system that allows showing different content to different users. Ad network moderators see the safe page, while the target audience sees your PWA.
 
-### Filtering Parameters Settings
+### Filtering Parameters Settings {#settings}
 
 **Step 1. Ad Network**
 
@@ -211,7 +211,7 @@ Works similarly to countries — you can allow or block.
 !!! note "Note"
      An empty field means no filtering by this parameter.
 
-### Safe Page Settings
+### Safe Page Settings {#safe_page}
 
 Safe page is a page with neutral content that is shown to moderators instead of your PWA.<br>
 Two methods are available for creation:
