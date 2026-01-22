@@ -31,4 +31,4 @@ markdown_extensions:
   - pymdownx.superfences
 
   extra_javascript:
-  - js/hide_ads.js
+  - js/hide-ads.js
