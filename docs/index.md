@@ -26,9 +26,8 @@
     - [Push](sections/builder/#push)
     - [Cloaking](sections/builder/#cloaking)
 
-
  - [Push Notifications](sections/push/)
      - [Section Overview](sections/push/#push_overview)
      - [Creating a Push](sections/push/#push_creation)
-     
+
  - [Statistics](sections/statistics/)
