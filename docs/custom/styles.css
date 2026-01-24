@@ -1,150 +1,237 @@
 /* Base */
 body {
-  background: #fff;
-  color: #000;
+  background: #fff !important;
+  color: #000 !important;
 }
 
 *, h1, h2, h3, h4, h5 {
-  font-family: Inter, -apple-system, "system-ui", "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: Inter, -apple-system, "system-ui", "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
 }
 
 h1, h2, h3, h4, h5 {
-  font-weight: 700;
-  letter-spacing: -.03em;
+  font-weight: 700 !important;
+  letter-spacing: -.03em !important;
 }
 
-.md-typeset h1 {
-  font-size: 2.5rem;
+h1 {
+  font-size: 2.5rem !important;
 }
 
 /* Links */
 a {
-  color: #295ada;
-  font-weight: 600;
+  color: #295ada !important;
+  font-weight: 600 !important;
 }
 
 a:hover {
-  color: #214cbc;
+  color: #214cbc !important;
 }
 
-/* Header */
-.md-header {
-  background: #181818;
+/* ===========================================
+   SIDEBAR
+   =========================================== */
+
+.wy-nav-side {
+  background: #000 !important;
 }
 
-/* Sidebar */
-.md-sidebar {
-  background: #000;
+.wy-side-scroll {
+  background: #000 !important;
 }
 
-.md-sidebar__scrollwrap {
-  background: #000;
+.wy-side-nav-search {
+  background: #000 !important;
 }
 
-/* Sidebar navigation */
-.md-nav__link {
-  color: #fff;
+.wy-menu-vertical {
+  background: #000 !important;
 }
 
-.md-nav__link:hover {
-  background-color: #dfebff;
-  color: #000;
+/* Sidebar Logo */
+.wy-side-nav-search img {
+  max-width: 200px !important;
+  height: auto !important;
+  background: transparent !important;
 }
 
-.md-nav__link--active,
-.md-nav__item--active > .md-nav__link {
-  background-color: #fff;
-  color: #000;
+/* Sidebar Search */
+.wy-side-nav-search input[type=text] {
+  border: none !important;
+  border-radius: 6px !important;
+  background: #222 !important;
+  color: #fff !important;
 }
 
-/* Logo */
-.md-header__button.md-logo img,
-.md-logo img {
-  max-width: 180px;
-  height: auto;
+.wy-side-nav-search input[type=text]::placeholder {
+  color: #888 !important;
 }
 
-/* Search */
-.md-search__input {
-  border: none;
-  border-radius: 6px;
+/* Sidebar Menu Links */
+.wy-menu-vertical a,
+.wy-menu-vertical li a,
+.wy-menu-vertical li.toctree-l1 > a,
+.wy-menu-vertical li.toctree-l2 > a,
+.wy-menu-vertical li.toctree-l3 > a {
+  color: #fff !important;
+  background: transparent !important;
 }
 
-/* Content */
-.md-content {
-  background: transparent;
+.wy-menu-vertical a:hover,
+.wy-menu-vertical li a:hover {
+  background: #333 !important;
+  color: #fff !important;
 }
 
-.md-main {
-  background: #fff;
+/* Active menu items */
+.wy-menu-vertical li.current > a,
+.wy-menu-vertical li.current a:first-child,
+.wy-menu-vertical li.on > a,
+.wy-menu-vertical li.toctree-l1.current > a,
+.wy-menu-vertical li.toctree-l2.current > a {
+  background: #222 !important;
+  color: #fff !important;
+  border: none !important;
 }
 
-/* Tables */
-.md-typeset table:not([class]) {
-  width: 100%;
+.wy-menu-vertical li.current {
+  background: #111 !important;
 }
 
-.md-typeset table:not([class]) td,
-.md-typeset table:not([class]) th {
-  white-space: initial;
+.wy-menu-vertical li ul li a {
+  color: #ccc !important;
 }
 
-/* Code */
+/* Remove borders from menu */
+.wy-menu-vertical li.toctree-l1.current > a,
+.wy-menu-vertical li.toctree-l2.current > a,
+.wy-menu-vertical li.toctree-l3.current > a {
+  border: none !important;
+  border-left: none !important;
+  border-right: none !important;
+}
+
+/* Expand buttons */
+.wy-menu-vertical .toctree-expand {
+  color: #fff !important;
+}
+
+/* ===========================================
+   TOP NAVIGATION
+   =========================================== */
+
+.wy-nav-top {
+  background: #000 !important;
+}
+
+.wy-nav-top a {
+  color: #fff !important;
+}
+
+.wy-nav-top i {
+  color: #fff !important;
+}
+
+/* ===========================================
+   CONTENT AREA
+   =========================================== */
+
+.wy-nav-content-wrap {
+  background: #fff !important;
+}
+
+.wy-nav-content {
+  background: #fff !important;
+  max-width: 900px !important;
+}
+
+.rst-content {
+  background: #fff !important;
+}
+
+/* Breadcrumbs */
+.wy-breadcrumbs {
+  background: transparent !important;
+}
+
+.wy-breadcrumbs a {
+  color: #295ada !important;
+}
+
+.wy-breadcrumbs-aside {
+  display: none !important;
+}
+
+/* ===========================================
+   TABLES
+   =========================================== */
+
+.wy-table-responsive table,
+table.docutils {
+  width: 100% !important;
+}
+
+.wy-table-responsive table td,
+.wy-table-responsive table th {
+  white-space: initial !important;
+}
+
+/* ===========================================
+   CODE
+   =========================================== */
+
 code, code *, pre, pre * {
-  font-family: "Space Mono", monospace;
+  font-family: "Space Mono", monospace !important;
 }
 
-.md-typeset code {
-  color: #dc3545;
-  background: initial;
-  border: initial;
-  padding: initial;
+.rst-content code,
+.rst-content tt,
+code {
+  color: #dc3545 !important;
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
 }
 
-/* Hide elements */
-.md-source,
-.md-footer {
-  display: none;
+/* ===========================================
+   ADMONITIONS (Notes, Warnings, etc.)
+   =========================================== */
+
+.admonition {
+  border-radius: 4px !important;
 }
 
-/* Hide ReadTheDocs ads */
-.ethical-ads,
-.ethical-ads-placement,
-.ea-placement,
-.ea-content,
-.ea-callout,
-[data-ea-publisher],
-div[id^="rtd-"],
-div[class*="ethical"],
-.rst-versions,
-.injected,
-#ethical-ad-placement,
-readthedocs-flyout {
-  display: none !important;
-  visibility: hidden !important;
-  height: 0 !important;
-  overflow: hidden !important;
-}
+/* ===========================================
+   FOOTER
+   =========================================== */
 
-/* Footer with ads */
-footer.md-footer,
-.md-footer-meta,
-div[class*="readthedocs"] {
+footer {
   display: none !important;
 }
 
-/* ReadTheDocs Ethical Ads - specific */
+.rst-versions {
+  display: none !important;
+}
+
+/* ===========================================
+   HIDE ADS
+   =========================================== */
+
 .raised.adaptive-css-loaded,
 .ea-placement,
 .ea-type-text,
 .ea-content,
 .ea-callout,
-div[data-ea-publisher="readthedocs"],
 div[data-ea-publisher],
-div[id="readthedocs-ea-text-nostyle-nodoctool"],
+div[data-ea-publisher="readthedocs"],
 div[id^="readthedocs-ea"],
+div[id="readthedocs-ea-text-nostyle-nodoctool"],
 div[class*="ea-placement"],
-div[class*="ea-type"] {
+div[class*="ea-type"],
+div[class*="ethical"],
+.ethical-ads,
+.ethical-ads-placement,
+#ethical-ad-placement,
+readthedocs-flyout {
   display: none !important;
   visibility: hidden !important;
   height: 0 !important;
