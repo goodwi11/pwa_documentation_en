@@ -28,7 +28,7 @@
      - [Section Overview](sections/push/#push_overview)
      - [Creating a Push](sections/push/#push_creation)
  - [Statistics](sections/statistics/)
-  - [Top Metrics Block](sections/statistics/#indicators)
+     - [Top Metrics Block](sections/statistics/#indicators)
      - [Filters](sections/statistics/#filters)
          - [Select PWA](sections/statistics/#pwa)
          - [Select Countries](sections/statistics/#countries)
