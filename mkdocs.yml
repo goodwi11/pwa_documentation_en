@@ -1,7 +1,7 @@
 site_name: Comsign PWA Documentation
 theme:
   name: readthedocs
-  logo: assets/logo2.png
+  logo: assets/logo_pwa.png
   favicon: assets/favicon.png
 
 extra:
